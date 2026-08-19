@@ -29,6 +29,107 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+# Cloud Computing TA-1
+## Dockerizing and Hosting a Next.js Web Application on AWS
+
+### Student Details
+
+- **Name:** Aryan Nandanwar
+- **Section:** B1
+- **Roll No:** 10
+- **Subject:** Cloud Computing
+- **Assessment:** TA-1
+- **Year:** 2026
+
+---
+
+## 1. Aim
+
+To create and implement a Dockerfile for a self-created Next.js web application, build a Docker image, deploy the application inside a Docker container, and host the application on an AWS EC2 instance.
+
+---
+
+## 2. Objective
+
+The main objectives of this practical are:
+
+- To understand Docker containerization.
+- To create a production-ready Dockerfile for a Next.js application.
+- To build a Docker image from the application source code.
+- To create and run a Docker container on an AWS EC2 instance.
+- To configure AWS networking and security groups.
+- To make the containerized web application accessible over the internet.
+- To understand the basic workflow of deploying a web application using Docker and AWS.
+
+---
+
+## 3. Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Next.js | Web application framework |
+| React | Frontend library |
+| TypeScript | Application development |
+| Tailwind CSS | UI styling |
+| Node.js 20 | JavaScript runtime |
+| Docker | Application containerization |
+| AWS EC2 | Cloud hosting |
+| AWS VPC | Network configuration |
+| AWS Security Group | Firewall configuration |
+| Ubuntu | EC2 operating system |
+| Git & GitHub | Source code management |
+
+---
+
+## 4. Application
+
+The application used for this practical is a self-created Next.js web application.
+
+The application contains information related to the Cloud Computing TA-1 practical, including student details, assignment scope, technology stack, and Docker configuration.
+
+The project was developed using Next.js and then containerized using Docker.
+
+---
+
+## 5. Project Architecture
+
+The deployment architecture used in this practical is:
+
+```text
+                    GitHub Repository
+                           |
+                           |
+                           v
+                  Next.js Application
+                           |
+                           v
+                       Dockerfile
+                           |
+                           v
+                    Docker Build
+                           |
+                           v
+                 Docker Image
+                aryan-cc-ta1:latest
+                           |
+                           v
+                    AWS EC2 Instance
+                      Ubuntu Linux
+                           |
+                           v
+                   Docker Container
+                     Port 3000
+                           |
+                           v
+                    AWS Security Group
+                     TCP Port 3000
+                           |
+                           v
+                       Internet
+                           |
+                           v
+                Next.js Web Application
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
