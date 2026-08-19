@@ -34,11 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ### Student Details
 
-- **Name:** Aryan Nandanwar
+- **Name:** Swayam Sagarkar
 - **Section:** B1
-- **Roll No:** 10
+- **Roll No:** 03
 - **Subject:** Cloud Computing
-- **Assessment:** TA-1
 - **Year:** 2026
 
 ---
